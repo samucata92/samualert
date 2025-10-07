@@ -1,0 +1,17 @@
+
+{
+  "name": "samualertbot",
+  "version": "1.0.0",
+  "main": "monitor.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.12",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}

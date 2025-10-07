@@ -1,0 +1,13 @@
+
+services:
+  - type: web
+    name: samu-alert-bot
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: RPC
+        value: "https://api.mainnet-beta.solana.com"
